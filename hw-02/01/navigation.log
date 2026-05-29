@@ -1,0 +1,38 @@
+Script started on Fri May 29 18:03:24 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/Users/d[0m[27m[24m[Jd@d ~ % [K[?2004hppwd[?2004l
+/Users/d
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/Users/d[0m[27m[24m[Jd@d ~ % [K[?2004hccd /etc[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/etc[0m[27m[24m[Jd@d /etc % [K[?2004hlls[?2004l
+afpovertcp.cfg				group					ntp_opendirectory.conf			security
+aliases					hosts					openldap				services
+aliases.db				hosts.equiv				pam.d					shells
+apache2					irbrc					passwd					snmp
+asl					kern_loader.conf			paths					ssh
+asl.conf				krb5.keytab				paths.d					ssl
+auto_home				localtime				pf.anchors				sudo_lecture
+auto_master				locate.rc				pf.conf					sudoers
+autofs.conf				mail.rc					pf.os					sudoers.d
+bashrc					man.conf				postfix					syslog.conf
+bashrc_Apple_Terminal			manpaths				ppp					ttys
+com.apple.mis.rtadvd.conf		manpaths.d				profile					uucp
+com.apple.screensharing.agent.launchd	master.passwd				protocols				wfs
+csh.cshrc				mullvad-vpn				racoon					xtab
+csh.login				networks				rc.common				zprofile
+csh.logout				newsyslog.conf				rc.netboot				zshrc
+cups					newsyslog.d				resolv.conf				zshrc_Apple_Terminal
+find.codes				nfs.conf				rmtab
+ftpusers				notify.conf				rpc
+gettytab				ntp.conf				rtadvd.conf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/etc[0m[27m[24m[Jd@d /etc % [K[?2004hccd /val r[1m/[0m[0m/log[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/var/log[0m[27m[24m[Jd@d log % [K[?2004hlls /usr[1m/[0m[0m/bin[1m/[0m[0m  | wc -l[?2004l
+     924
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/var/log[0m[27m[24m[Jd@d log % [K[?2004hccd[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/Users/d[0m[27m[24m[Jd@d ~ % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]7;file://d.local/Users/d[0m[27m[24m[Jd@d ~ % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Fri May 29 18:04:21 2026
