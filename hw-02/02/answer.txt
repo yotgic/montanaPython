@@ -1,0 +1,5 @@
+d@d day1 % ls -la
+total 8
+drwxr-xr-x  3 d  staff  96 Jun 13 19:19 .
+drwxr-xr-x  3 d  staff  96 Jun 13 19:15 ..
+-rw-r--r--  1 d  staff  77 Jun 13 19:17 README.txt
