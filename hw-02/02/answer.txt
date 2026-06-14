@@ -1,0 +1,8 @@
+ls -la
+
+@@@
+
+total 8
+drwxr-xr-x  3 d  staff  96 Jun 14 14:54 .
+drwxr-xr-x  3 d  staff  96 Jun 14 14:51 ..
+-rw-r--r--  1 d  staff  89 Jun 14 14:53 README.txt

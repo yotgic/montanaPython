@@ -1,0 +1,5 @@
+bash-3.2$ ./info.sh
+current_user: d
+current_dir: /Users/d
+current_date: Sun Jun 14 16:08:50 +04 2026
+current_dir_files_number:       20

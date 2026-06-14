@@ -1,0 +1,18 @@
+bash-3.2$ cd ~
+bash-3.2$ mkdir montanium-cli
+bash-3.2$ mkdir -p montanium-cli/notes/day1
+bash-3.2$ cd montanium-cli/notes/day1
+bash-3.2$ touch README.txt
+bash-3.2$ nano README.txt 
+bash-3.2$ cat README.txt 
+Ничего нового, никак не доделаю домашнюю работу.
+bash-3.2$ cp README.txt README.backup.txt
+bash-3.2$ mv README.backup.txt archive.txt
+bash-3.2$ ls
+README.txt	archive.txt
+bash-3.2$ rm archive.txt 
+bash-3.2$ ls -la
+total 8
+drwxr-xr-x  3 d  staff  96 Jun 14 14:54 .
+drwxr-xr-x  3 d  staff  96 Jun 14 14:51 ..
+-rw-r--r--  1 d  staff  89 Jun 14 14:53 README.txt

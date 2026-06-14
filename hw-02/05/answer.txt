@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "current_user: $USER"
+echo "current_dir: $(pwd)"
+echo "current_date: $(date)"
+echo "current_dir_files_number: $(find . -maxdepth 1 -type f | wc -l)"
+
+@@@
+
+current_user: d
+current_dir: /Users/d
+current_date: Sun Jun 14 16:08:50 +04 2026
+current_dir_files_number:       20

@@ -1,0 +1,121 @@
+bash-3.2$ apropos disk
+git-count-objects(1)     - Count unpacked number of objects and their disk consumption
+git-credential-store(1)  - Helper to store credentials on disk
+_TIFFRewriteField(3tiff) - rewrite a field in the directory on disk
+git-count-objects(1)     - Count unpacked number of objects and their disk consumption
+git-credential-store(1)  - Helper to store credentials on disk
+prl_convert(8)           - utility for converting third-party virtual machines and disks to the Parallels format
+prl_disk_tool(8)         - utility for managing Parallels virtual machine disks
+DiskUnmountWatcher(8)    - watches for disk unmount and remove cached credentials
+FDERecoveryAgent(8)      - Full Disk Encryption Key Recovery Transmission Agent
+NRDUpdated(8)            - The Network Recovery on Disk Update daemon
+UnmountAssistantAgent(8) - Provides help when a disk can't be ejected
+asr(8)                   - Apple Software Restore; copy volumes (e.g. from disk images)
+attach_automation_image(8), -(8) - ."====================== attach_automation_image attach and initialize disk images for automation_trampoline(8) ." ."
+bitesize.d(1m)           - analyse disk I/O size by process. Uses DTrace
+bless(8)                 - set volume bootability and startup disk options
+cryptexctl-create(1), cryptexctl create(1) - create a cryptex from a disk image
+df(1)                    - display free disk space
+diskarbitrationd(8)      - disk arbitration daemon
+diskimagesiod(8)         - Handles I/O for disk images
+disklabel(8)             - manipulate and query an Apple Label disk label
+diskmanagementstartup(8) - DiskManagement.framework helper tool
+diskutil(8)              - modify, verify and repair local disks
+dmc(1)                   - controls the Disk Mount Conditioner
+du(1)                    - display disk usage statistics
+fdisk(8)                 - DOS partition maintenance program
+hdid(8)                  - historical mechanism for attaching disk images
+hdiejectd(8)             - disk image management daemon
+hdik(8)                  - lightweight tool to attach and mount disk images in-kernel
+hdiutil(1)               - manipulate disk images (attach, verify, create, etc)
+hotspot.d(1m)            - print disk event by location. Uses DTrace
+htcacheclean(8)          - Clean up the disk cache
+iopattern(1m)            - print disk I/O pattern. Uses DTrace
+iopending(1m)            - plot number of pending disk events. Uses DTrace
+iotop(1m)                - display top disk I/O events by process. Uses DTrace
+netbootdisk(8)           - find local drive to use with NetBoot
+pdisk(8)                 - Apple partition table editor
+pkgbuild(1)              - Build a macOS Installer component package from on-disk files
+purge(8)                 - force disk cache to be purged (flushed and emptied)
+quota(1)                 - display disk usage and limits
+seeksize.d(1m)           - print disk event seek report. Uses DTrace
+snmpdf(1)                - display disk space usage on a network entity via SNMP
+sync(8)                  - force completion of pending disk writes (flush cache)
+Apache2::Reload(3pm)     - Reload Perl Modules when Changed on Disk
+DiskUnmountWatcher(8)    - watches for disk unmount and remove cached credentials
+FDERecoveryAgent(8)      - Full Disk Encryption Key Recovery Transmission Agent
+NRDUpdated(8)            - The Network Recovery on Disk Update daemon
+Tie::File(3pm)           - Access the lines of a disk file via a Perl array
+UnmountAssistantAgent(8) - Provides help when a disk can't be ejected
+archive_read_disk(3), archive_read_disk_new(3), archive_read_disk_open(3), archive_read_disk_open_w(3), archive_read_disk_set_behavior(3), archive_read_disk_set_symlink_logical(3), arc hive_read_disk_set_symlink_physical(3), archive_read_disk_set_symlink_hybrid(3), archive_read_disk_entry_from_file(3), archive_read_disk_gname(3), archive_read_disk_uname(3), archive_r ead_disk_set_uname_lookup(3), archive_read_disk_set_gname_lookup(3), archive_read_disk_set_standard_lookup(3), archive_read_disk_descend(3), archive_read_disk_can_descend(3), archive_r ead_disk_current_filesystem(3), archive_read_disk_current_filesystem_is_synthetic(3), archive_read_disk_current_filesystem_is_remote(3), archive_read_disk_set_matching(3), archive_read _disk_set_metadata_filter_callback(3) - functions for reading objects from disk
+archive_write_disk(3), archive_write_disk_new(3), archive_write_disk_set_options(3), archive_write_disk_set_skip_file(3), archive_write_disk_set_group_lookup(3), archive_write_disk_set _standard_lookup(3), archive_write_disk_set_user_lookup(3) - functions for creating objects on disk
+asr(8)                   - Apple Software Restore; copy volumes (e.g. from disk images)
+bash-3.2$ man df
+DF(1)                                                                           General Commands Manual                                                                          DF(1)
+
+[1mNAME[0m
+     [1mdf[0m – display free disk space
+
+[1mSYNOPSIS[0m
+     [1mdf[0m [[1m--libxo[0m] [[1m-b[0m | [1m-g[0m | [1m-H[0m | [1m-h[0m | [1m-k[0m | [1m-m[0m | [1m-P[0m] [[1m-acIilntY[0m] [[1m-,[0m] [[1m-T[0m [4mtype[24m] [[4mfile[24m | [4mfilesystem[24m [4m...[24m]
+
+[1mLEGACY[0m [1mSYNOPSIS[0m
+     [1mdf[0m [[1m--libxo[0m] [[1m-b[0m | [1m-g[0m | [1m-H[0m | [1m-h[0m | [1m-k[0m | [1m-m[0m | [1m-P[0m] [[1m-acIilnY[0m] [[1m-,[0m] [[1m-T[0m [4mtype[24m] [[1m-t[0m [4mtype[24m] [[4mfile[24m | [4mfilesystem[24m [4m...[24m]
+
+[1mDESCRIPTION[0m
+     The [1mdf[0m utility displays statistics about the amount of free disk space on the specified mounted [4mfile[24m [4msystem[24m or on the file system of which [4mfile[24m is a part.  By default block
+     counts are displayed with an assumed block size of 512 bytes.  If neither a file or a file system operand is specified, statistics for all mounted file systems are displayed
+     (subject to the [1m-t[0m option below).
+
+     The following options are available:
+
+     [1m--libxo[0m
+             Generate output via libxo(3) in a selection of different human and machine readable formats.  See xo_parse_args(3) for details on command line arguments.
+
+     [1m-a[0m      Show all mount points, including those that were mounted with the MNT_IGNORE flag.  This is implied for file systems specified on the command line.
+
+     [1m-b[0m      Explicitly use 512 byte blocks, overriding any BLOCKSIZE specification from the environment.  This is the same as the [1m-P[0m option.  The [1m-k[0m option overrides this option.
+
+     [1m-c[0m      Display a grand total.
+
+     [1m-g[0m      Use 1073741824 byte (1 Gibibyte) blocks rather than the default.  This overrides any BLOCKSIZE specification from the environment.
+
+     [1m-h[0m      “Human-readable” output.  Use unit suffixes: Byte, Kibibyte, Mebibyte, Gibibyte, Tebibyte and Pebibyte (based on powers of 1024) in order to reduce the number of digits
+             to four or fewer.  This applies to the Size, Used, and Avail columns only; the iused and ifree columns will be displayed in powers of 1000.
+
+     [1m-H[0m, [1m--si[0m
+             Same as [1m-h[0m but based on powers of 1000.
+
+     [1m-I[0m      Suppress inode counts.  See [1m-i[0m below.
+
+     [1m-i[0m      Include statistics on the number of free and used inodes.  In conjunction with the [1m-h[0m or [1m-H[0m options, the number of inodes is scaled by powers of 1000.  In case the
+             filesystem has no inodes then ‘-’ is displayed instead of the usage percentage.
+
+             This option is now the default to conform to Version 3 of the Single UNIX Specification (“SUSv3”).  Use [1m-I[0m to suppress this output.
+
+     [1m-k[0m      Use 1024 byte (1 Kibibyte) blocks rather than the default.  This overrides the [1m-P[0m option and any BLOCKSIZE specification from the environment.
+
+     [1m-l[0m      Select locally-mounted file system for display.  If used in combination with the [1m-T[0m [4mtype[24m option, file system types will be added or excluded acccording to the parameters
+             of that option.
+
+     [1m-m[0m      Use 1048576 byte (1 Mebibyte) blocks rather than the default.  This overrides any BLOCKSIZE specification from the environment.
+
+     [1m-n[0m      Print out the previously obtained statistics from the file systems.  This option should be used if it is possible that one or more file systems are in a state such that
+             they will not be able to provide statistics without a long delay.  When this option is specified, [1mdf[0m will not request new statistics from the file systems, but will
+             respond with the possibly stale statistics that were previously obtained.
+
+     [1m-P[0m      Explicitly use 512 byte blocks, overriding any BLOCKSIZE specification from the environment.  This is the same as the [1m-b[0m option.  The [1m-g[0m and [1m-k[0m options override this
+             option.  In compatibility mode, this also suppresses inode counts.
+bash-3.2$ df -h
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    23Gi    34%    459k  239M    0%   /
+devfs            208Ki   208Ki     0Bi   100%     720     0  100%   /dev
+/dev/disk3s6     228Gi   3.0Gi    23Gi    12%       3  239M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.5Gi    23Gi    28%    1.4k  239M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   1.2Mi    23Gi     1%      65  239M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   482Mi     2%       3  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.7Mi   482Mi     2%      30  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   1.0Mi   482Mi     1%      39  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   181Gi    23Gi    89%    2.3M  239M    1%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk5s1      16Gi    16Gi   467Mi    98%    507k  4.8M   10%   /Library/Developer/CoreSimulator/Volumes/iOS_21C62

@@ -1,0 +1,29 @@
+bash-3.2$ pwd
+/Users/d/Sites/montanaPython/hw-02/01
+bash-3.2$ cd /etc
+bash-3.2$ ls
+afpovertcp.cfg				group					ntp_opendirectory.conf			security
+aliases					hosts					openldap				services
+aliases.db				hosts.equiv				pam.d					shells
+apache2					irbrc					passwd					snmp
+asl					kern_loader.conf			paths					ssh
+asl.conf				krb5.keytab				paths.d					ssl
+auto_home				localtime				pf.anchors				sudo_lecture
+auto_master				locate.rc				pf.conf					sudoers
+autofs.conf				mail.rc					pf.os					sudoers.d
+bashrc					man.conf				postfix					syslog.conf
+bashrc_Apple_Terminal			manpaths				ppp					ttys
+com.apple.mis.rtadvd.conf		manpaths.d				profile					uucp
+com.apple.screensharing.agent.launchd	master.passwd				protocols				wfs
+csh.cshrc				mullvad-vpn				racoon					xtab
+csh.login				networks				rc.common				zprofile
+csh.logout				newsyslog.conf				rc.netboot				zshrc
+cups					newsyslog.d				resolv.conf				zshrc_Apple_Terminal
+find.codes				nfs.conf				rmtab
+ftpusers				notify.conf				rpc
+gettytab				ntp.conf				rtadvd.conf
+bash-3.2$ cd /var/log
+bash-3.2$ ls /usr/bin/ | wc -l
+     924
+bash-3.2$ cd
+bash-3.2$ cd ~
