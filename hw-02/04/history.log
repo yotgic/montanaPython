@@ -1,0 +1,10 @@
+bash-3.2$ sleep 300 &
+[1] 11852
+bash-3.2$ pgrep sleep
+11852
+bash-3.2$ ps aux | grep sleep
+d                11855   0.0  0.0 435299408   1344 s001  S+    9:16PM   0:00.01 grep sleep
+d                11852   0.0  0.0 435299344   1120 s001  S     9:16PM   0:00.01 sleep 300
+bash-3.2$ kill 11852
+bash-3.2$ pgrep sleep
+[1]+  Terminated: 15          sleep 300
